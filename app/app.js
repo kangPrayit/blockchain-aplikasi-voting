@@ -29,15 +29,10 @@ App = {
   
     render: async ()=> {
       if(App.loading) { return }
-      App.setLoading(true)
-  
-      console.log(App.account[0])
-      $('#accountAddress').html("Alamat Akun: " + App.account[0])
-  
-      await App.renderVote()
-  
-      App.setLoading(false)
-  
+      App.setLoading(true)  
+      $('#accountAddress').html("Alamat Akun: " + App.account[0])  
+      await App.renderVote()  
+      App.setLoading(false)  
     },
   
     setLoading: (boolean)=> {
@@ -66,10 +61,10 @@ App = {
         $("#candidatesResults").append(candidateTemplate)
       }
   
-      const isVote = await App.Voting.voters(App.account[0])
+      const isVote = await App.Voting.paraPemilih(App.account[0])
       if(isVote){
         $('#btnVote').prop("disabled", true);
-        $('#voteStatus').html("You already Vote!")
+        $('#voteStatus').html("Anda sudah memberikan Voting!")
       }
     },
   
