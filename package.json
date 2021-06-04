@@ -1,0 +1,23 @@
+{
+  "name": "blockchain-aplikasi-voting",
+  "version": "1.0.0",
+  "description": "Aplikasi Voting sederhana menggunakan Ethereum Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangPrayit/blockchain-aplikasi-voting.git"
+  },
+  "author": "Eko Prasetyo",
+  "license": "ISC",
+  "homepage": "https://github.com/kangPrayit/blockchain-aplikasi-voting#readme",
+  
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "truffle-contract": "^4.0.31"
+  }
+
+}
