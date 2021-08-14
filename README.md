@@ -1,9 +1,12 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <h1 align="center">Aplikasi Voting - Ethereum Blockchain</h1>
-
+  <p align="center">
+    
+  </p>
   <p align="center">
     Aplikasi Voting sederhana menggunakan Ethereum Blockchain.
+    <br/><a href="https://zenodo.org/badge/latestdoi/373863259"><img src="https://zenodo.org/badge/373863259.svg" alt="DOI"></a>
   </p>
 </p>
 
